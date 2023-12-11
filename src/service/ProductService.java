@@ -13,4 +13,5 @@ import model.SmartPhone;
  */
 public interface ProductService {
     public List<SmartPhone> getList();
+    public int createOrUpdate(SmartPhone smartPhone);
 }

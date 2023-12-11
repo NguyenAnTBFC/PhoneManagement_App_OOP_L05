@@ -96,7 +96,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(30, Short.MAX_VALUE))
         );
 
-        jpnProduct.setBackground(new java.awt.Color(0, 0, 255));
+        jpnProduct.setBackground(new java.awt.Color(76, 175, 80));
+        jpnProduct.setForeground(new java.awt.Color(255, 255, 255));
 
         jlbProduct.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jlbProduct.setForeground(new java.awt.Color(255, 255, 255));
@@ -117,7 +118,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
-        jpnBill.setBackground(new java.awt.Color(0, 153, 255));
+        jpnBill.setBackground(new java.awt.Color(76, 175, 80));
+        jpnBill.setForeground(new java.awt.Color(255, 255, 255));
 
         jlbBill.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jlbBill.setForeground(new java.awt.Color(255, 255, 255));
@@ -138,7 +140,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(32, Short.MAX_VALUE))
         );
 
-        jpnClient.setBackground(new java.awt.Color(0, 0, 204));
+        jpnClient.setBackground(new java.awt.Color(76, 175, 80));
+        jpnClient.setForeground(new java.awt.Color(255, 255, 255));
 
         jlbClient.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jlbClient.setForeground(new java.awt.Color(255, 255, 255));
@@ -159,7 +162,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(32, Short.MAX_VALUE))
         );
 
-        jpnLogout.setBackground(new java.awt.Color(0, 153, 255));
+        jpnLogout.setBackground(new java.awt.Color(76, 175, 80));
+        jpnLogout.setForeground(new java.awt.Color(255, 255, 255));
 
         jlbLogout.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jlbLogout.setForeground(new java.awt.Color(255, 255, 255));
@@ -208,6 +212,7 @@ public class MainJFrame extends javax.swing.JFrame {
         );
 
         jpnView.setBackground(new java.awt.Color(153, 255, 255));
+        jpnView.setForeground(new java.awt.Color(76, 175, 80));
 
         javax.swing.GroupLayout jpnViewLayout = new javax.swing.GroupLayout(jpnView);
         jpnView.setLayout(jpnViewLayout);

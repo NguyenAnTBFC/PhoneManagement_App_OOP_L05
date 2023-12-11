@@ -23,4 +23,9 @@ public class ProductServiceImpl implements ProductService{
     public List<SmartPhone> getList() {
         return productDAO.getList();
     }
+
+    @Override
+    public int createOrUpdate(SmartPhone smartPhone) {
+        return productDAO.createOrUpdate(smartPhone);
+    }
 }
