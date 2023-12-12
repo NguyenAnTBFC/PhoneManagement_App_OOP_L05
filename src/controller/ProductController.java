@@ -74,8 +74,6 @@ public class ProductController {
                 }else{
                     smartPhone.setIdSmartPhone(Integer.parseInt(jtfIdProduct.getText()));
                     smartPhone.setNameSmartPhone(jtfNameProduct.getText());
-                    System.out.println(jcbbCapacity.getSelectedItem().toString());
-                    System.out.println(Integer.parseInt(jcbbCapacity.getSelectedItem().toString()));
                     smartPhone.setCapacity(Integer.parseInt(jcbbCapacity.getSelectedItem().toString()));
                     smartPhone.setColor(jtfColor.getText());
                     smartPhone.setCategory((String) jcbbCategory.getSelectedItem());

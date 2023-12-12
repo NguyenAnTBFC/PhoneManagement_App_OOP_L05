@@ -59,8 +59,7 @@ public class ProductDAOImpl implements ProductDAO {
         try {
             Connection cons = DBConnect.getConnection();
             String sql = "INSERT INTO SmartPhone (IdSmartPhone, NameSmartPhone, Capacity, Color, Category, Price, QuantityInventor)\n" 
-                        +"VALUES(?, ?, ?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE NameSmartPhone = VALUES(NameSmartPhone), Capacity = VALUES(Capacity), Color = VALUES(Color),"
-                        + " Category = VALUES(Category), Price = VALUES(Price), QuantityInventor = VALUES(QuantityInventor);";
+                        +"VALUES(?, ?, ?, ?, ?, ?, ?)";
             PreparedStatement ps = cons.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
             ps.setInt(1, smartPhone.getIdSmartPhone());
             ps.setString(2, smartPhone.getNameSmartPhone());
